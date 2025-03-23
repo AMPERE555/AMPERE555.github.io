@@ -3,10 +3,15 @@
     <head>
         <meta charset="UTF-8">
         <title>Purrfect</title>
+        <style>
+            .cats{
+            padding: 20px; 
+            margin: 5px;   
+            }
+        </style>
     </head>
     <body>
-        <span>
-            <nav>
+            <nav display="inline">
             <ul><!---All linked to index because I do not have other html pages for these <li> yet-->
                 <li>
                     <a href="index.html">Home</a>
@@ -19,11 +24,10 @@
                 </li>
             </ul>
             </nav>
-        </span>
 
-        <h1>Cats are amazing pets</h1>
-        <p style="padding: top 45px;">Have you ever wanted to adopt a fluffy companion? Cats are great pets.</p>
-        <div style="padding: 45px; margin: 5px; position: center;">
+        <h1 class="cats">Cats are amazing pets</h1>
+        <p class="cats">Have you ever wanted to adopt a fluffy companion? Cats are great pets.</p>
+        <div class="cats">
             <h2 href="#care">Care</h2>
             <p>The most important things when caring for any pet.</p>
             <ol type="I">
@@ -40,9 +44,13 @@
                     <td>
                     Long haired cats
                     </td>
+                </tr>
+                <tr>
                     <td>
                     Short haired cats
                     </td>
+                </tr>
+                <tr>
                     <td>
                     Hairless cats
                     </td>
