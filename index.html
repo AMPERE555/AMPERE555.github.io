@@ -3,32 +3,26 @@
     <head>
         <meta charset="UTF-8">
         <title>Purrfect</title>
-        <style>
-            .cats{
-            padding: 20px; 
-            margin: 5px;   
-            }
-        </style>
     </head>
     <body>
-            <nav display="inline">
+            <nav style="display: inline;">
             <ul><!---All linked to index because I do not have other html pages for these <li> yet-->
-                <li>
+                <li style="display: inline; padding: 40 px; margin: 5px; border: 10px solid rgb(152, 152, 235); background-color: rgb(152, 152, 235); width: fit-content; border-radius: 15px;">
                     <a href="index.html">Home</a>
                 </li>
-                <li>
+                <li style="display: inline; padding: 40 px; margin: 5px; border: 10px solid rgb(152, 152, 235); background-color: rgb(152, 152, 235); width: fit-content; border-radius: 15px;">
                     <a href="index.html">Gallery</a>
                 </li>
-                <li>
+                <li style="display: inline; padding: 40 px; margin: 5px; border: 10px solid rgb(152, 152, 235); background-color: rgb(152, 152, 235); width: fit-content; border-radius: 15px;">
                     <a href="index.html">About</a>
                 </li>
             </ul>
             </nav>
 
-        <h1 class="cats">Cats are amazing pets</h1>
-        <p class="cats">Have you ever wanted to adopt a fluffy companion? Cats are great pets.</p>
-        <div class="cats">
-            <h2 href="#care">Care</h2>
+        <h1>Cats are amazing pets</h1>
+        <p style="padding: top 20 px;">Have you ever wanted to adopt a fluffy companion? Cats are great pets.</p>
+        <div style="padding: 40 px; margin: 5px; border: 20px solid rgb(152, 152, 235); background-color: rgb(152, 152, 235); width: fit-content;">
+            <h2 id="care">Care</h2>
             <p>The most important things when caring for any pet.</p>
             <ol type="I">
                <li>Hygiene</li>
@@ -36,27 +30,28 @@
                <li>Training</li>
             </ol>
         </div>
-        <div>
-            <h3>Cat breeds</h3>
-            <img src="">
-            <table>
+        <div style="padding: 20 px; margin: 5px;">
+            <h2>Cat breeds</h2>
+            <img style="padding: 20 px; margin: 5px;" width="1000px"
+             src="https://images.unsplash.com/photo-1543852786-1cf6624b9987?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2F0c3xlbnwwfHwwfHx8MA%3D%3D"
+             alt="Cat with yellow scarf smiling">
+            <table style="border:1px solid black;">
                 <tr>
-                    <td>
-                    Long haired cats
+                    <th style="border:1px solid black; background-color: rgb(152, 152, 235);">
+                        <h3>Hair Length</h3>
+                    </th>
+                    <td style="border:1px solid black;">
+                    <h4>Long haired cats</h4>
                     </td>
-                </tr>
-                <tr>
-                    <td>
-                    Short haired cats
+                    <td style="border:1px solid black;">
+                    <h4>Short haired cats</h4>
                     </td>
-                </tr>
-                <tr>
-                    <td>
-                    Hairless cats
+                    <td style="border:1px solid black;">
+                    <h4>Hairless cats</h4>
                     </td>
                 </tr>
             </table>
-            <p>If you'd like are thinking of adopting please review the <a id="care">Care section</a> above.</p>
+            <p>If you are thinking of adopting please <span style="font-style: italic;">review</span> the <a href="#care">Care section</a> above.</p>
         </div>
     </body>
 
