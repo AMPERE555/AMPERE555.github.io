@@ -1,0 +1,18 @@
+
+h1 {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium';
+}
+h2 {
+    font-family: 'Franklin Gothic Medium';
+}
+
+li.menu {
+    display: inline;
+    padding: 40px;
+    margin: 5px;
+    border: 10px solid rgb(152, 152, 235);
+    width: fit-content;
+    border-radius: 15px;
+    font-size: 20px;
+}
