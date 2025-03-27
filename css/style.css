@@ -1,18 +1,25 @@
 
 h1 {
+    padding: 10px;
     font-size: 30px;
-    font-family: 'Franklin Gothic Medium';
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 h2 {
-    font-family: 'Franklin Gothic Medium';
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 li.menu {
     display: inline;
-    padding: 40px;
+    padding: 10px;
     margin: 5px;
     border: 10px solid rgb(152, 152, 235);
     width: fit-content;
+    background: rgb(197, 197, 230);
     border-radius: 15px;
     font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a.menu {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
 }
