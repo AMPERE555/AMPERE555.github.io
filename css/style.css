@@ -1,9 +1,21 @@
 
+nav.flexbox-element{
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    margin: 25px;
+    background: #f8c36d;
+}
+
 h1 {
     padding: 10px;
-    font-size: 30px;
+    padding-top: 40px;
+    font-size: 60px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 h2 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -22,4 +34,51 @@ li.menu {
 a.menu {
     text-decoration: none;
     color: rgb(255, 255, 255);
+}
+
+img {
+    padding: 20 px;  
+    border-radius: 50px;
+    max-width: 800px;
+    min-width: 300px; /*a phone screen can be as small as 320 px*/
+}
+
+#care {
+    padding: 40 px; 
+    border: 20px solid rgb(152, 152, 235); 
+    background-color: rgb(152, 152, 235); 
+    width: fit-content;
+}
+
+li.logo {
+    display: inline;
+    margin-right: 5px;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(0, 0, 0);
+    width:fit-content;
+    border-radius: 15px;
+}
+span.logo {
+    font-style: italic;
+    margin-left: 8px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color:rgb(152, 152, 235);
+}
+
+#main {
+    padding: 20 px; 
+    margin: 5px;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+
+}
+
+#table {
+    
 }
