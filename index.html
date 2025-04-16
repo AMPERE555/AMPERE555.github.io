@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <script src="index.js">
+        </script>
         <meta charset="UTF-8">
         <title>Purrfect</title>
         <link rel="stylesheet" href="./css/style.css">
@@ -23,6 +25,7 @@
             </nav>
 
         <h1>Cats are amazing pets</h1>
+        <button type="button" id="alertMe" onclick="alert('Hello World!')">Click Me!</button>
         <p style="padding: top 20 px;">Have you ever wanted to adopt a fluffy companion? Cats are great pets.</p>
         <div id="care">
             <h2>Care</h2>
@@ -33,6 +36,11 @@
                <li>Training</li>
             </ol>
         </div>
+        <div class="alert">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>  
+            <strong>Meow!</strong> Cats can see better in the dark than humans.
+          </div>
+          <button id="hoverbutton" href="#main">Sweet animals</button>
         <br>
         <br>
         <div id="main">

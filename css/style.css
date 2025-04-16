@@ -6,7 +6,7 @@ nav.flexbox-element{
 
 body {
     margin: 25px;
-    background: #f8c36d;
+    background: rgb(248, 195, 109);
 }
 
 h1 {
@@ -90,3 +90,37 @@ span.logo {
     width:fit-content;
 
 }
+.alert {
+    background-color: #ff8401;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+    color: white;
+    margin-bottom: 15px;
+    opacity: 1;
+    transition: opacity 0.6s;
+}
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .closebtn:hover {
+    color: black;
+  }
+  #hoverbutton {
+    background-color: rgb(152, 152, 235);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+    color: white;
+    margin-bottom: 15px;
+    cursor: pointer;
+  }
+  #hoverbutton:hover {
+    background-color: #ff8401;
+  }
